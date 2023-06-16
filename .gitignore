@@ -25,6 +25,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Rasa
+.rasa
+
 # Distribution / packaging
 .Python
 build/
