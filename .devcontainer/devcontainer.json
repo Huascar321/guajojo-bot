@@ -1,0 +1,29 @@
+{
+	"name": "Python 3 for Rasa",
+	"build": { "dockerfile": "Dockerfile" },
+	"forwardPorts": [
+		5005
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-spanish",
+				"redhat.vscode-yaml",
+				"yzhang.markdown-all-in-one",
+				"jasonlhy.hungry-delete",
+				"KevinRose.vsc-python-indent",
+				"aaron-bond.better-comments",
+				"njqdev.vscode-python-typehint",
+				"almenon.arepl",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"GitHub.copilot",
+				"eamodio.gitlens"
+			]
+		}
+	},
+	"postCreateCommand": "pip3 install -r requirements.txt",
+	"remoteUser": "root"
+}
